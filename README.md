@@ -1,5 +1,5 @@
 # ipset-blacklist
-
+ 
 A Bash shell script which uses ipset, iptables and ip6tables to ban a large number of IP addresses published in IP blacklists. ipset uses a hashtable to store/fetch IP addresses and thus the IP lookup is a lot (!) faster than thousands of sequentially parsed iptables ban rules.
 Thanks to @trick77 for original code and to https://github.com/leshniak/nft-blacklist for inspiration and code to add ipv6 support.
 
